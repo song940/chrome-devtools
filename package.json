@@ -13,6 +13,7 @@
     "test"
   ],
   "scripts": {
+    "start": "./bin/chii.js start",
     "ci": "npm run lint && npm run build && npm run es5",
     "format": "npm run format:server && lsla prettier \"src/**/*.ts\" \"*.{js,json}\" \"bin/*.js\" \"test/*.{html,json,js,css}\" --write",
     "format:server": "lsla prettier \"server/**/*.js\" --write",
